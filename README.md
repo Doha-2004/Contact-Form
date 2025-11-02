@@ -44,11 +44,6 @@ Upon successful validation, a success message appears:
 If you enable **GitHub Pages**, your live site will be available here:  
 👉 [https://Doha-2004.github.io/Contact-Form](https://Doha-2004.github.io/Contact-Form)
 
----
 
-## 🧑‍💻 Author
-
-**Doha** – [@Doha-2004](https://github.com/Doha-2004)  
-💬 *Feel free to reach out for feedback or suggestions!*
 
 
