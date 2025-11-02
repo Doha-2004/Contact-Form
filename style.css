@@ -1,0 +1,128 @@
+/* Reset + Global rules */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Smooth gradient background */
+body {
+  background: linear-gradient(135deg, #6a0572, #f0f0f5, #183584);
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact form container */
+.contact-form {
+  background: #ffffff; /* pure white for high contrast */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: auto;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.contact-form:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Input labels */
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Input and textarea styles */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+/* Focus state for inputs */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #183584;
+  box-shadow: 0 0 6px rgba(24, 53, 132, 0.4);
+}
+
+/* Submit button */
+.contact-form button {
+  background-color: #183584;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #050d4d;
+  transform: scale(1.03);
+}
+
+/* Error message styling */
+.error {
+  color: #c0392b;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Instruction list */
+ol {
+  max-width: 600px;
+  margin: 20px auto;
+  padding-left: 20px;
+  color: #fff;
+}
+ol li {
+  margin-bottom: 8px;
+}
+
+/* Success message */
+    #successMessage {
+      color: green;
+      text-align: center;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+
